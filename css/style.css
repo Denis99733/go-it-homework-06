@@ -249,7 +249,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   font-size: 36px;
-
+max-width: 320px;
   margin-bottom: 72px;
 }
 .section-main-button:hover,
@@ -417,6 +417,8 @@ letter-spacing: 0.32px;
   gap: 72px;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 264px;
+  margin: 0 auto;
 }
 .team-main {
   font-size: 36px;
@@ -434,6 +436,7 @@ letter-spacing: 0.32px;
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   text-align: center;
   border-radius: 0px 0px 4px 4px;
+  flex-basis: 100%;
 
 }
 .team-list-item:hover {
@@ -448,20 +451,24 @@ letter-spacing: 0.32px;
 /* footer */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+
 }
 .footer-logo {
   margin-bottom: 16px;
   margin-right: 0;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logo__footer {
   display: inline-block;
-  margin-right: 120px;
+  margin: 98px 0 72px 0;
+
 }
 .logo__footer-media {
   display: inline-block;
-  margin-right: 80px;
+  margin-bottom: 72px;
+
 }
 .footer-logo-web {
   color: #f4f4fd;
@@ -479,14 +486,25 @@ letter-spacing: 0.32px;
 }
 .footer-social {
   color: #fff;
-
+display: flex;
+justify-content: center;
+align-items: center;
   font-weight: 500;
   margin-bottom: 16px;
 }
+.footer-subscribe{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footer_container {
   display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 428px;
+  flex-direction: column;
 }
 .footer__social_container {
   gap: 16px;
@@ -657,13 +675,18 @@ letter-spacing: 0.32px;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  
 }
 .footer-form {
   display: flex;
-  gap: 24px;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 96px;
 }
 .footer-input {
-  width: 264px;
+  width: 398px;
   height: 40px;
   border-radius: 4px;
   border: 1px solid #ffffff;
