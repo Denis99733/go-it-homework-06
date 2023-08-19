@@ -58,7 +58,8 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="menu-open-mobil" openMenuBtn>
+        <button type="button"class="menu-open-mobil js-open-menu" aria-expanded="false"
+        aria-controls="mobile-menu" openMenuBtn>
           <svg class="menu-open-img" width="32" height="22">
             <use href="./images/icons.svg#icon-charm_menu-hamburger">
 
@@ -498,7 +499,7 @@
       
       <div class="modal">
       
-        <button type="button" class="modal-btn" data-modal-close>
+        <button type="button" class="modal-btn"   data-modal-close>
           <svg class="modal-btn-img" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
@@ -581,9 +582,9 @@
         </form>
       </div>
     </div>
-    <div class="mob-menu is-hidden" mobileMenu >
+    <div class="mob-menu js-menu-container " id="mobile-menu"  mobileMenu >
       <div>
-      <button type="button" class="menu-close-mobil" closeMenuBtn >
+      <button type="button" class="menu-close-mobil js-close-menu" closeMenuBtn >
         <svg class="menu-close-img"  width="8" height="8">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1">
     
@@ -680,6 +681,7 @@
     crossorigin="anonymous"
   ></script>
   <script defer src="./js/mobile-menu.js"></script>
+
   <script src="./js/mobile-menu.js"></script>
 
 

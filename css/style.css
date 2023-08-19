@@ -38,7 +38,8 @@ ul {
   padding: 0;
 }
 .container {
- max-width: 428px;
+  min-width: 320px;
+  max-width: 1160px;
 padding-left: 16px;
 padding-right: 16px;
 margin-left: auto;
@@ -990,6 +991,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 overflow: auto;
+transform: translateX(100%)
 
 }
 .menu-close-mobil{
