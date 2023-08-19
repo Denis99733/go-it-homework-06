@@ -980,7 +980,7 @@ align-items: center;
 }
 .mob-menu{
  width: 100%;
- height: 100px;
+ height: 100%;
   position: fixed;
   top: 0;
   z-index: 20;
@@ -990,7 +990,7 @@ padding: 24px 24px 40px 40px;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-overflow: auto;
+overflow: hidden;
 transform: translateX(100%)
 
 }
@@ -1056,11 +1056,11 @@ letter-spacing: 0.4px;
 
 /* media */
 
-/* @media (min-width: 768px) {
+ @media (min-width: 768px) {
   .header {
     padding: 0;
   }
-  .header-container {
+  .header-container  {
     display: flex;
     align-items: center;
     gap: 120px;
@@ -1118,29 +1118,29 @@ letter-spacing: 0.4px;
     font-size: 56px;
     margin-bottom: 36px;
   }
-  .features__list {
+  .text-list  {
     flex-direction: row;
     flex-wrap: wrap;
     -moz-column-gap: 24px;
          column-gap: 24px;
   }
-  .features__list-item {
+  .text-item {
     flex-basis: calc((100% - 24px) / 2);
   }
-  .features__item-title {
+  .text-item-main {
     text-align: left;
   }
-  .features__item-text br {
+  .text-item-p br {
     display: block;
   }
-  .team__list {
+.team-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
     max-width: 100%;
   }
-  .team__list-item {
+  .team-item {
     flex-basis: calc((100% - 24px) / 2);
   }
   .customers__list {
@@ -1152,45 +1152,28 @@ letter-spacing: 0.4px;
   .customers__list-item {
     flex-basis: calc((100% - 48px) / 3);
   }
-  .portfolio {
-    padding: 64px 0 96px;
-  }
-  .portfolio .container {
-    max-width: 768px;
-  }
-  .portfolio__filter {
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 64px;
-  }
-  .portfolio__list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-  .portfolio__list-item {
-    flex-basis: calc((100% - 24px) / 2);
-  }
-  .footer__block {
+ 
+  .footer_container{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
   }
-  .footer .logo {
+  .footer .footer-logo {
     text-align: left;
   }
-  .footer__title {
+  .footer-social {
     text-align: left;
   }
-  .footer__form {
+  .footer-form {
     flex-direction: row;
     gap: 24px;
   }
-  .footer__form-input {
+  .footer-input{
     width: 264px;
   }
-  .modal__content {
+  .modal {
     width: 408px;
   }
-} */
+} 
+
