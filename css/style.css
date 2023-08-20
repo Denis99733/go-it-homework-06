@@ -1061,6 +1061,7 @@ letter-spacing: 0.4px;
 
 
  @media (min-width: 768px) {
+  
 
   .header-menu-link:hover,
 .header-menu-link:focus {
@@ -1069,17 +1070,24 @@ letter-spacing: 0.4px;
   .header {
     padding: 0;
   }
+  .header-container{margin: 0;}
+
+  .address-menu-list{
+    display: flex;
+    flex-direction: column;
+  }
   .header-container  {
     display: flex;
     align-items: center;
     gap: 120px;
   }
-  .header-nav, .header .header-address {
-    display: block;
-  }
+
   .header .header-menu-list {
     display: flex;
     flex-direction: row;
+  }
+  .header-menu-link {
+    color: #2E2F42;
   }
   .header .header-menu-link {
     position: relative;
@@ -1253,6 +1261,7 @@ letter-spacing: 0.4px;
 
  .header-container{
   width: 1440px;
+  margin: 0 auto;
  }
  
   .header-nav {
@@ -1271,6 +1280,7 @@ letter-spacing: 0.4px;
     gap: 40px;
   }
   .header .address-menu-list {
+    flex-direction: row;
     display: flex;
     justify-content: space-between;
     align-items: center;
