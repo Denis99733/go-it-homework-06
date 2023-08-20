@@ -1245,7 +1245,9 @@ letter-spacing: 0.4px;
   }
   .team-item {
     flex-basis: calc((100% - 72px) / 4);
+    
   }
+ 
   .customer {
     padding: 120px 0;
   }
@@ -1253,8 +1255,8 @@ letter-spacing: 0.4px;
     max-width: 1160px;
   }
   .customer__list {
-    -moz-column-gap: 24px;
-         column-gap: 24px;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
     max-width: 100%;
   }
   .customer__list-item {
