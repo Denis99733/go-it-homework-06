@@ -473,7 +473,8 @@ letter-spacing: 0.32px;
   align-items: center;
 }
 .logo__footer {
-  display: inline-block;
+ display: flex;
+ flex-direction: column;
   margin-top: 98px;
   margin-bottom: 72px;
 
@@ -745,6 +746,11 @@ align-items: center;
 .footer-button:hover,
 .footer-button:focus {
   background-color: #404bbf;
+}
+.logo-social-footer{
+  margin-bottom: 72px;
+
+
 }
 .modal {
   padding: 72px 24px 24px 24px;
@@ -1192,8 +1198,10 @@ letter-spacing: 0.4px;
   }
   .logo__footer{
     display: flex;
+    flex-direction: row;
     justify-content: start;
     align-items: flex-start;
+    gap:24px;
   }
  
   .footer_container{
