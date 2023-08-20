@@ -367,7 +367,7 @@ letter-spacing: 0.32px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  
 }
 .team-social {
   fill: #f4f4fd;
@@ -1177,3 +1177,107 @@ letter-spacing: 0.4px;
   }
 } 
 
+@media (min-width: 768px) and (max-width: 1157px) {
+  .section-main-second .container {
+    max-width: 100%;
+  }
+  .team .container {
+    max-width: 584px;
+  }
+  .customer .container {
+    max-width: 584px;
+  }
+  .footer .container {
+    max-width: 584px;
+  }
+}
+@media (min-width: 1158px) {
+  .header-nav {
+    gap: 76px;
+  }
+  .header .address-menu-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .header .address-menu-link  {
+    font-size: 16px;
+  }
+  .section-main {
+    padding: 188px 0;
+  }
+  .section-main-second {
+    padding: 120px 0;
+  }
+  .section-main-second .container {
+    max-width: 1160px;
+  }
+  .text-item{
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .text-item-img {
+    display: flex;
+  }
+  .text-item-main {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .text-item-p {
+    font-weight: 400;
+  }
+  .section-work {
+    display: block;
+    margin-bottom: 120px;
+  }
+  .work-list {
+    display: flex;
+    gap: 24px;
+  }
+  .work-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+  .team {
+    padding: 120px 0;
+  }
+  .team-list {
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+  .customer {
+    padding: 120px 0;
+  }
+  .customer .container {
+    max-width: 1160px;
+  }
+  .customer__list {
+    -moz-column-gap: 24px;
+         column-gap: 24px;
+    max-width: 100%;
+  }
+  .customer__list-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+  
+  .footer .container {
+    max-width: 1160px;
+  }
+  .footer_container {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .logo__footer {
+    margin-right: 120px;
+  }
+  .logo__footer-media {
+    margin-right: 80px;
+  }
+  .footer .footer__social_container {
+    gap: 16px;
+  }
+  .footer-input{
+    opacity: 1;
+  }
+}
