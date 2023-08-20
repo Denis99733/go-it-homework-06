@@ -1437,6 +1437,7 @@ letter-spacing: 0.4px;
     gap:0;
 
   }
+  
   .footer-subscribe{
     display: block;
     margin-top: 100px;
@@ -1451,5 +1452,12 @@ letter-spacing: 0.4px;
   }
   .footer-input{
     opacity: 1;
+  }
+  .logo_footer_port{
+    flex-direction: column;
+    margin-right: 120px;
+  }
+  .footer-media-port{
+    margin-right: 80px;
   }
 }
