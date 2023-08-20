@@ -23,6 +23,7 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 h1,
 h2,
@@ -1061,7 +1062,7 @@ letter-spacing: 0.4px;
 
 
  @media (min-width: 768px) {
-  
+
 
   .header-menu-link:hover,
 .header-menu-link:focus {
