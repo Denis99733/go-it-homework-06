@@ -1208,7 +1208,7 @@ letter-spacing: 0.4px;
     flex-direction: row;
     flex-wrap: wrap;
   justify-content: start;
-    row-gap: 72px;
+  
   }
   .footer .footer-logo {
     display: block;
